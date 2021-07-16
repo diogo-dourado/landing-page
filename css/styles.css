@@ -1,0 +1,201 @@
+body {margin: 0; font-family: 'Open Sans', sans-serif;}
+#topo{
+    background: url('../assets/template01.jpg') no-repeat center top;
+}
+
+.logo {
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.logo h1{
+    max-width: 850px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    color: azure;
+    font-size: 32px;
+
+}
+
+.gamer01 img{
+    max-width: min-content;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.texto01{
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.texto01 h3{
+    text-align: center;
+    max-width: 925px;
+    width: 100%;
+    margin: 0 auto;
+    color: red;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-size: 32px;
+}
+
+.texto01 p{
+    text-align: center;
+    max-width: 925px;
+    width: 100%;
+    margin: 0 auto;
+    color: azure;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-size: 24px;
+}
+
+.bg02 {
+    background: black;
+    background-size: cover;
+}
+
+.conteudo2 {
+    max-width: 1290px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.conteudo2 div{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+.conteudo2 div b{
+    color: red;
+}
+
+.conteudo2 p{
+    color: azure;
+}
+
+.conteudo3 {
+    max-width: 1290px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.conteudo3 div{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+.conteudo3 div b{
+    color: red;
+}
+
+.conteudo3 p{
+    color: azure;
+}
+
+.bg03 {
+    background: url('../assets/fundoRgb.jpg') no-repeat center top;
+    background-size: cover;
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 150px;
+}
+
+.conteudo4 {
+    max-width: 680px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: azure;
+}
+
+.conteudo4 div{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.conteudo4 p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.formulario {
+    background: grey;
+    border: rgb(65, 65, 65) solid 3px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.formulario input[type="text"], .formulario input[type="email"] {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border-radius: 200px;
+    border: 0;
+    padding: 8px 10px;
+    box-shadow: inset 0px 1px 4px rgb(0 0 0 / 95%);
+}
+
+.formulario input[type="submit"] {
+    width: 80%;
+    margin: 20px auto 10px auto;
+    display: block;
+    background: rgb(65, 65, 65);
+    border: none;
+    padding: 10px 0;
+    border-radius: 200px;
+    color: #fff;
+}
+
+.formulario label{
+    display: block;
+}
+
+.aceite {
+    font-size: 14px;
+}
+
+.rodape {
+    height: 110px;
+    padding: 25px;
+    text-align: center;
+    background: yellow;
+}
+
+
+/* Responsividade */
+@media (max-width: 1110px) {
+    .conteudo4 div{
+        width: 100%;
+        max-width: 360px;
+        float: none;
+    }
+} 
+
+@media (max-width: 1235px) {
+    .conteudo2 div{width: 50%;}
+    .conteudo3 div{width: 50%;}
+} 
+
+@media (max-width: 620px) {
+    .conteudo2 div{width: 100%;}
+    .conteudo3 div{width: 100%;}
+    .conteudo4 div{width: 100%;}
+} 
