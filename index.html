@@ -125,12 +125,12 @@
                         <p>Cadastre o seu e-mail e não fique de fora das novidades e promoções da Gamerstore. Frete grátis para todo o Brasil!</p>
                     </div>
                     <div id="content">
-                        <form class="formulario" id="form">
+                        <form class="formulario" id="form" name="form01">
                             <input type="text" placeholder="Seu nome" id="nome" required>
-                            <input type="email" placeholder="E-mail" id="email" required>
+                            <input type="email" placeholder="E-mail" id="email" name="email" required>
                             <label class="aceite"><input type="checkbox" id="checkbox">
                                 Aceito receber comunicações. </label>                                
-                            <input type="submit" onclick="cadastrarCliente()" name="enviar" value="CADASTRAR" id="submit">
+                            <input type="submit" onclick="validarEmail(document.form01.email)" name="enviar" value="CADASTRAR" id="submit">
                         </form>
                     </div>
                 </div>

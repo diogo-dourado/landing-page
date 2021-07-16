@@ -195,6 +195,8 @@ body {margin: 0; font-family: 'Open Sans', sans-serif;}
 } 
 
 @media (max-width: 620px) {
+    .conteudo2 {max-width: 350px;}
+    .conteudo3 {max-width: 350px;}
     .conteudo2 div{width: 100%;}
     .conteudo3 div{width: 100%;}
     .conteudo4 div{width: 100%;}
